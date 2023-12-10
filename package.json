@@ -1,0 +1,25 @@
+{
+  "name": "js-restaurant",
+  "version": "1.0.0",
+  "description": "Inspired by the Odin Project: https://www.theodinproject.com/lessons/node-path-javascript-library",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaticanMemes/js-restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaticanMemes/js-restaurant/issues"
+  },
+  "homepage": "https://github.com/VaticanMemes/js-restaurant#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^5.89.0"
+  }
+}
