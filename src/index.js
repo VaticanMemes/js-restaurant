@@ -1,12 +1,22 @@
 import _ from 'lodash';
+import initialiseWebsite from './website.js';
 
+/*
 function component() {
     const element = document.createElement('div');
-  
+
     // Lodash, now imported by this script
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  
+
     return element;
-  }
-  
-  document.body.appendChild(component());
+}
+
+document.body.appendChild(component());
+*/
+
+const paragraph = document.createElement("p")
+paragraph.textContent = "Testing"
+
+document.getElementById("content").appendChild(paragraph);
+
+//initialiseWebsite();
