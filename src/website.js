@@ -2,7 +2,7 @@ import createParagraph from './createPara';
 
 function initialiseWebsite() {
 
-    document.getElementById("content").appendChild(createParagraph(Testing));
+    document.getElementById("component").append(createParagraph(Testing));
 
 }
 
